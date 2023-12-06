@@ -29,7 +29,7 @@ SETTINGS_MODE = os.getenv("DJANGO_SETTINGS_MODULE", "practice.settings.productio
 SECRET_KEY = os.getenv("SECRET_KEY", "your-secret-key")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.getenv("DEBUG", "False").lower() == "true"
+DEBUG = os.getenv("DEBUG", "False").lower() == "false"
 
 ALLOWED_HOSTS = ["*"]
 
